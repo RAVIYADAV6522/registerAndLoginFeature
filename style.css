@@ -5,6 +5,7 @@ body {
 }
 
 form {
+  width: 40%;
   background: white;
   padding: 20px;
   max-width: 300px;
@@ -23,4 +24,18 @@ button {
   width: 90%;
   margin: 10px 0;
   padding: 8px;
+}
+
+div {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+  form {
+    width: 60%;
+  }
 }
